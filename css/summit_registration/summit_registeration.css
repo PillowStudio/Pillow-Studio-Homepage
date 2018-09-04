@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.summit_registration_article_main_container {
+	width: 100%;
+	
+}
+
+#summit_registration_article_main_container_1 {
+	background: url('../../image/main/AWS_Summit_Logo-Lockup_Color.jpg') no-repeat;
+	background-size: cover;
+}
+
+.summit_registration_article_main {
+	width: 1800px; height: inherit;
+	margin: auto;
+	position: relative;
+	text-align: center;
+}
+
+@media (max-width: 1969px) and (min-width: 1000px){
+	.summit_registration_article_main  {
+		width: calc(100% - 140px);
+	}
+}
+
+@media (max-width: 999px) and (min-width: 905px){
+	.summit_registration_article_main {
+		width: 825px;
+	}
+}
+
+@media (max-width: 904px) {
+	.summit_registration_article_main {
+		width: calc(100% - 40px);
+	}
+}
